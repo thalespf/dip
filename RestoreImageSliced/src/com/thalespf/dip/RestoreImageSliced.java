@@ -1,5 +1,3 @@
-package com.thalespf.exercises.imageprocessing;
-
 /*
  * Copyright 2013 Thales Ferreira
  *
@@ -15,6 +13,8 @@ package com.thalespf.exercises.imageprocessing;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.thalespf.dip;
+
 import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
