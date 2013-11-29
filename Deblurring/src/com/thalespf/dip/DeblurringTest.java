@@ -29,7 +29,8 @@ import com.thalespf.dip.util.ImageIODesktop;
 /**
  * A class to blur and deblur images with motion blur. The blur method (convolution) 
  * use a PSF (point-spread function) defined in Gonzalez. 
- * The PSF (in domain space) is represented by a OTF in frquency domain that make linear motion blur.
+ * The PSF (in domain space) is transformed in fequency domain and is
+ * represented by a OTF that make linear motion blur.
  * 
  * The deblur use the Wiener method to make the image deconvolution.
  * 

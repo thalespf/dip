@@ -25,11 +25,7 @@ import com.thalespf.dip.util.ImageIODesktop;
 
 import edu.emory.mathcs.jtransforms.fft.DoubleFFT_2D;
 
-/**
- * 
- * @author thales
- *
- */
+
 public class FFTForwardInverseTest {
 	public static void main(String[] args) throws IOException {
 		forwardTest();
